@@ -10,6 +10,16 @@ NFT Storage Bounty is a bounty creation app for NFT content. Users can input the
 
 We can decentralize the NFT collection's storage with incentives.
 
+## Submission
+
+### Video
+
+https://youtu.be/0H_PgMAm93I
+
+### App
+
+TBD
+
 ## How It Works
 
 ![how-it-works](./docs/how-it-works.png)
@@ -27,6 +37,20 @@ We have Nextjs frontend, and the frontend is connected to the Filecoin testnet.
 We are running lotus and IPFS in the backend.
 
 And deal bounty smart contract is on the FEVM.
+
+#### Filecoin 🛸 FVM Spaceships -
+
+We build the storage Data DAO service for NFT content, which can be integrated into any chain. I used the example contract, but I provided a perfect use case for the contract.
+
+#### Filecoin ⚓️ Docking Modules
+
+I integrated the NFT storage incentive layer using Filecoin. And this could be a good docking module for every chain NFT and it incentivizes users to use IPFS and Filecoin.
+
+#### Filecoin 🔥 FVM Jetpacks
+
+We built smart contracts and interact with frontend and backend.
+
+This is a simple dApp but it is strongly powered by Filcoin.
 
 #### Sample Image
 
