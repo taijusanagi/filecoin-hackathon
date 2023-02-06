@@ -22,6 +22,12 @@ We can decentralize the NFT collection's storage with incentives.
 
 ### Technical Detail
 
+- User inputs NFT data
+- The system gets IPFS data from the token URI
+- The system gets piece id from IPFS data by lotus
+- Users can create bounty using the calculated piece id
+- FEVM Smart contract enables deal creator to claim the fund (not implemented yet)
+
 #### Sample Image
 
 https://bafybeiblm23hq22c3k6fqlvvpbiototds4kblkf5yas5iti6e2igtnbdva.ipfs.nftstorage.link/
@@ -59,6 +65,17 @@ It re-uses the frontend component, but smart contracts and business logic are ne
 
 ## Disclaimer
 
+### Integrating with Lotus
+
 This service requires running IPFS and Lotus, and it was hard to deploy, so only the front end is deployed.
 
 To make the demo possible, I hard-coded the piece id and size calculation process.
+
+### Creating deal
+
+```
+  Message: error validating deal published: decoding deal publish return: unsupported network version 19
+...gxsuzyam  0       f01129    StorageDealError  N          N         ...mtrqnshi  15.88 MiB  0 FIL  521136    false
+```
+
+I was not able to create deal on Hyperspace properly, so the getting claim function is not integrated.
