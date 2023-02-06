@@ -15,7 +15,7 @@
     "dev": "run-p dev:*",
     "dev:app": "yarn workspace @community-storage/app dev",
     "build": "run-p build:*",
-    "build:app": "yarn workspace @community-storage/app build"
+    "build:app": "yarn workspace @community-storage/app build && yarn workspace @community-storage/app export"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
