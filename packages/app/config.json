@@ -1,0 +1,41 @@
+{
+  "name": "PODP",
+  "description": "PODP is Proof Of Data Preservation for Filecoin Ecosystem",
+  "url": {
+    "app": "https://community-storage.vercel.app",
+    "github": "https://github.com/taijusanagi/community-storage",
+    "hackathon": "https://fevm.ethglobal.com/"
+  },
+  "style": {
+    "color": {
+      "black": {
+        "bg": "#393D44",
+        "text": {
+          "primary": "gray.700",
+          "secondary": "gray.600",
+          "tertiary": "gray.300"
+        }
+      },
+      "white": {
+        "bg": "#F6F7F8"
+      },
+      "accent": "#EEEEEE",
+      "link": "blue.400",
+      "brand": {
+        "50": "#F2F2F2",
+        "100": "#DBDBDB",
+        "200": "#C4C4C4",
+        "300": "#ADADAD",
+        "400": "#969696",
+        "500": "#808080",
+        "600": "#666666",
+        "700": "#4D4D4D",
+        "800": "#333333",
+        "900": "#1A1A1A"
+      }
+    },
+    "size": "md",
+    "radius": "lg",
+    "shadow": "md"
+  }
+}
