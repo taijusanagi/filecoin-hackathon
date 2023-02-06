@@ -6,12 +6,14 @@ import { useState } from "react";
 import { Layout } from "@/components/Layout";
 import { Modal } from "@/components/Modal";
 import { Unit } from "@/components/Unit";
-import { useIsSignedIn } from "@/hooks/useIsSignedIn";
+// import { useIsSignedIn } from "@/hooks/useIsSignedIn";
+import { useConnectedChainConfig } from "@/hooks/useConnectedChainConfig";
 
 import configJsonFile from "../../config.json";
 
 const HomePage: NextPage = () => {
-  const { isSignedIn } = useIsSignedIn();
+  // const { isSignedIn } = useIsSignedIn();
+  const { connectedChainConfig } = useConnectedChainConfig()
   const { openConnectModal } = useConnectModal();
 
   const [dealId, setDealId] = useState("");
@@ -21,12 +23,12 @@ const HomePage: NextPage = () => {
     <Layout>
       <Stack spacing="8">
         <VStack>
-          <Image src="/assets/hero.png" w="96" mx="auto" alt="logo" />
-          <Text textAlign={"center"} fontSize={"md"} fontWeight={"bold"} color={configJsonFile.style.color.accent}>
+          <Image src="/assets/hero.png" w="100" mx="auto" alt="logo" mb="4" />
+          <Text textAlign={"center"} fontSize={{ base: 'xs', md: 'md' }} fontWeight={"bold"} color={configJsonFile.style.color.accent}>
             {configJsonFile.description}
           </Text>
         </VStack>
-        {!isSignedIn && (
+        {!connectedChainConfig && (
           <VStack>
             <HStack spacing="4">
               <Button
@@ -43,7 +45,7 @@ const HomePage: NextPage = () => {
           </VStack>
         )}
 
-        {isSignedIn && (
+        {connectedChainConfig && (
           <Stack spacing="8">
             <Unit header={"Claim Proof of data preservation SBTs"}>
               <Stack spacing="2">

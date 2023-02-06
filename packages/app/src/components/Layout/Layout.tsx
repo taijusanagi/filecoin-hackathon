@@ -26,7 +26,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
           </HStack>
         </Box>
       </Container>
-      <Container maxW="3xl" py="24" flex={1}>
+      <Container maxW="3xl" py="12" flex={1}>
         {children}
       </Container>
       <Container maxW="8xl">
@@ -38,7 +38,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
               </Text>
               Built in{" "}
               <Link href={configJsonFile.url.hackathon} target={"_blank"}>
-                Hack FEVM
+                FVM SPACE WARP HACKATHON
               </Link>
             </Text>
             <HStack spacing={"4"}>

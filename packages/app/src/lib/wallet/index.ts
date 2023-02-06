@@ -31,14 +31,14 @@ export interface RainbowWeb3AuthConnectorProps {
 }
 
 const { connectors } = getDefaultWallets({
-  appName: "PODP",
+  appName: "NFT Storage Bounty",
   chains,
 });
 
 export { chains };
 
 export const wagmiClient = createClient({
-  autoConnect: true,
+  // autoConnect: true,
   connectors,
   provider,
 });

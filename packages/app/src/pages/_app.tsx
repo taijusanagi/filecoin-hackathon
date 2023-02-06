@@ -3,7 +3,7 @@ import "@fontsource/inter/variable.css";
 
 import { ChakraProvider } from "@chakra-ui/react";
 import { RainbowKitProvider } from "@rainbow-me/rainbowkit";
-import { RainbowKitSiweNextAuthProvider } from "@rainbow-me/rainbowkit-siwe-next-auth";
+// import { RainbowKitSiweNextAuthProvider } from "@rainbow-me/rainbowkit-siwe-next-auth";
 import { AppProps } from "next/app";
 import { SessionProvider } from "next-auth/react";
 import { WagmiConfig } from "wagmi";
@@ -16,11 +16,11 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     <ChakraProvider resetCSS theme={myChakraUITheme}>
       <WagmiConfig client={wagmiClient}>
         <SessionProvider session={pageProps.session}>
-          <RainbowKitSiweNextAuthProvider>
+          {/* <RainbowKitSiweNextAuthProvider> */}
             <RainbowKitProvider chains={chains} showRecentTransactions={true} theme={myRainbowKitTheme}>
               <Component {...pageProps} />
             </RainbowKitProvider>
-          </RainbowKitSiweNextAuthProvider>
+          {/* </RainbowKitSiweNextAuthProvider> */}
         </SessionProvider>
       </WagmiConfig>
     </ChakraProvider>

@@ -1,10 +1,10 @@
 {
-  "name": "PODP",
-  "description": "PODP is Proof Of Data Preservation for Filecoin Ecosystem",
+  "name": "NFT Storage Bounty",
+  "description": "Decentralize your NFT collection's storage",
   "url": {
-    "app": "https://community-storage.vercel.app",
-    "github": "https://github.com/taijusanagi/community-storage",
-    "hackathon": "https://fevm.ethglobal.com/"
+    "app": "https://nft-storage-bounty.vercel.app",
+    "github": "https://github.com/taijusanagi/filecoin-hackathon",
+    "hackathon": "https://ethglobal.com/events/spacewarp"
   },
   "style": {
     "color": {
