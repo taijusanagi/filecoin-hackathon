@@ -5,7 +5,7 @@
     "name": "Filecoin Hyperspace",
     "currency": "FIL",
     "icon": "filecoin.svg",
-    "rpc": "https://wallaby.node.glif.io/rpc/v0",
+    "rpc": "https://api.hyperspace.node.glif.io/rpc/v1",
     "explorer": { "tx": { "name": "A Simple Filecoin Analytics UI", "url": "https://explorer.glif.io" } },
     "deployments": {
       "dataDAO": ""

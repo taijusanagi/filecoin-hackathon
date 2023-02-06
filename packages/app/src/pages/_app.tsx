@@ -17,9 +17,9 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
       <WagmiConfig client={wagmiClient}>
         <SessionProvider session={pageProps.session}>
           {/* <RainbowKitSiweNextAuthProvider> */}
-            <RainbowKitProvider chains={chains} showRecentTransactions={true} theme={myRainbowKitTheme}>
-              <Component {...pageProps} />
-            </RainbowKitProvider>
+          <RainbowKitProvider chains={chains} showRecentTransactions={true} theme={myRainbowKitTheme}>
+            <Component {...pageProps} />
+          </RainbowKitProvider>
           {/* </RainbowKitSiweNextAuthProvider> */}
         </SessionProvider>
       </WagmiConfig>
