@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a bounty creation app for NFT content. Users can input the NFT info, then the system automatically converts IPFS data into Filecoin format, which enables users to create Filecoin deal bounty on NFT content directly.
+NFT Storage Bounty is a bounty creation app for NFT content. Users can input the NFT info, then the system automatically converts IPFS data into Filecoin format, which enables users to create Filecoin deal bounty on NFT content directly.
 
 ### Benefit
 
@@ -14,13 +14,19 @@ We can decentralize the NFT collection's storage with incentives.
 
 ![how-it-works](./docs/how-it-works.png)
 
-### Technical Detail
-
 - User inputs NFT data
 - The system gets IPFS data from the token URI
 - The system gets piece id from IPFS data by lotus
 - Users can create bounty using the calculated piece id
 - FEVM Smart contract enables the deal creator to claim the fund (not implemented yet)
+
+### Technical Detail
+
+We have Nextjs frontend, and the frontend is connected to the Filecoin testnet.
+
+We are running lotus and IPFS in the backend.
+
+And deal bounty smart contract is on the FEVM.
 
 #### Sample Image
 
