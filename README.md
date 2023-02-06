@@ -1,5 +1,8 @@
 # Community Storage 
 
+## Development
+
+
 ## Submission
 
 ### Live Demo
@@ -14,13 +17,24 @@
 
 ### Technical Detail
 
+#### Deployed Contracts
+
+Network is Hyperspace
+
+FilecoinMarketConsumer deployed to: 0x484f3BEA36CfAb44B307d512Ccfe19e72289758A
+DealRewarder deployed to: 0xec8845201c40Ec2C258b96CAD110aD01566247F6
+
 ## Disclaimer
 
 ### Reference
 
-We are using this document as the main reference. We are almost using the same contracts from this example.
+We are using the following document as the main reference.
 
 https://medium.com/@rvk_rishikesh/build-your-first-datadao-on-fvm-6ed38b940103
+
+And we forked the following contract as quick start
+
+https://github.com/filecoin-project/fevm-hardhat-kit/tree/main
 
 ### Previous Project
 
