@@ -2,13 +2,7 @@
 
 ![top](./docs/top.png)
 
-## Submission
-
-### Live Demo
-
-### Tryout App
-
-## Describe Project
+## Description
 
 This is a bounty creation app for NFT content. Users can input the NFT info, then the system automatically converts IPFS data into Filecoin format, which enables users to create Filecoin deal bounty on NFT content directly.
 
@@ -26,7 +20,7 @@ We can decentralize the NFT collection's storage with incentives.
 - The system gets IPFS data from the token URI
 - The system gets piece id from IPFS data by lotus
 - Users can create bounty using the calculated piece id
-- FEVM Smart contract enables deal creator to claim the fund (not implemented yet)
+- FEVM Smart contract enables the deal creator to claim the fund (not implemented yet)
 
 #### Sample Image
 
