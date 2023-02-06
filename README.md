@@ -18,7 +18,7 @@ https://youtu.be/0H_PgMAm93I
 
 ### App
 
-TBD
+tbo
 
 ## How It Works
 
@@ -69,6 +69,10 @@ DealRewarder: 0xec8845201c40Ec2C258b96CAD110aD01566247F6
 #### Tested deal
 
 bafyreig5obeibqjphohqyaa3t5blgclvsathhdmny7iot6mksigxsuzyam
+
+#### Add fund
+
+https://hyperspace.filfox.info/en/tx/0xd6b0cb8263c0f22dd814c4dbb21d0d10bfd1e5b7567b1a3e1ee7eadc5bd0dfc2
 
 ## Reference
 
